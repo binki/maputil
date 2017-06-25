@@ -1,0 +1,10 @@
+# Editor swap and backup files.
+*~
+*.swp
+*\#*
+
+# packages
+node_modules
+
+# test output
+coverage

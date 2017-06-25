@@ -1,0 +1,32 @@
+{
+  "name": "maputil",
+  "version": "1.0.0",
+  "description": "Simple ES6 Map utilities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binki/maputil.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binki/maputil/issues"
+  },
+  "homepage": "https://github.com/binki/maputil#readme",
+  "jest": {
+    "collectCoverage": true,
+    "coverageThreshold": {
+      "branches": 100,
+      "lines": 100,
+      "functions": 100,
+      "statements": 100
+    },
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
+}
